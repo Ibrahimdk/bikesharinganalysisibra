@@ -36,6 +36,7 @@ def main():
     st.subheader("Data setelah di-cluster:")
     st.write(df)
 
+    st.set_option('deprecation.showPyplotGlobalUse', False)
     # Menampilkan scatter plot berdasarkan dua fitur yang dipilih
     x_axis = st.selectbox("Pilih Fitur untuk Sumbu X:", selected_features)
     y_axis = st.selectbox("Pilih Fitur untuk Sumbu Y:", selected_features, index=1)
@@ -46,7 +47,7 @@ def main():
     plt.ylabel(y_axis)
     st.pyplot()
     
-    
+    st.set_option('deprecation.showPyplotGlobalUse', False)
     st.title("Data Visualitation")
     #Pertanyaan 1
     st.subheader("Jumlah peminjaman sepeda berdasarkan bulan")
