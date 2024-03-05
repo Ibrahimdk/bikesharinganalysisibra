@@ -1,8 +1,7 @@
 conda create --name main-ds python=3.9
 conda activate main-ds
-pip install numpy pandas  matplotlib seaborn 
+pip install streamlit numpy pandas matplotlib seaborn scikit-learn
 
 
-
-streamlit run dashboard.py
+streamlit run Hello.py
 
