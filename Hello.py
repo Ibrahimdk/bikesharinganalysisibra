@@ -12,7 +12,7 @@ def load_data():
 
 # Main function
 def main():
-    st.title("Bike Sharing Clustering & Visualitation Dashboard ")
+    st.title("Bike Sharing Clustering & Visualitation Dashboard")
 
     # Load data
     df = load_data()
